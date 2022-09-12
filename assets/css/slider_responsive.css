@@ -1,0 +1,19 @@
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+    .slider {
+        padding-top: 3%;
+        background: linear-gradient(120deg, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8);
+        background-size: 400%;
+        animation: gradient 10s ease infinite;
+    }
+
+    .slideshow-container {
+        max-width: 380px;
+        position: relative;
+        margin-left: 15px;
+    }
+}
+
+
+

@@ -1,0 +1,81 @@
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+    nav {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 40px;
+        top: 0;
+        background: black;
+        font-family: serif;
+        z-index: 1;
+        border-bottom: 1px solid #2E4C6D;
+    }
+
+    .wrapper {
+        width: 380px;
+        margin: auto;
+        position: relative;
+    }
+
+    .logo a {
+        font-size: 40px;
+        font-weight: bold;
+        float: left;
+        font-family: courier;
+        color:#6E3CBC;
+    }
+
+    .menu {
+        float: right;
+        font-size: 10px;
+    }
+
+    h2 {
+        font-family: 'comic sans ms';
+        font-weight: 800;
+        font-size: 20px;
+        margin-bottom: 20px;
+        color: #2E4C6D;
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .creator-image {
+        width: 60%;
+        margin-left: 120px;
+    }
+
+    .creator-image img {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    .Data-diri {
+        padding-top: 2%;
+        text-align: center;
+    }
+
+    #data ul {
+        margin-left: 20px;
+    }
+
+    #data ul li {
+        list-style-type: none;
+    }
+
+    h3 {
+        font-family: 'comic sans ms';
+        font-weight: bold;
+        font-size: 15px;
+        color: #2E4C6D;
+        width: 100%;
+    }
+}
+
+
+

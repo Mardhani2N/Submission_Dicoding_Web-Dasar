@@ -1,0 +1,164 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 100px;
+    top: 0;
+    background: black;
+    font-family: serif;
+    z-index: 1;
+    border-bottom: 1px solid #2E4C6D;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: bold;
+    float: left;
+    font-family: courier;
+    color:#6E3CBC;
+}
+
+.menu {
+    float: right;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.running-text {
+    padding-top: 2%;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2E4C6D;
+    width: 100%;
+    line-height: 50px;
+}
+
+.main {
+    padding-bottom: 2%;
+}
+
+.creator-image {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.creator-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.Data-diri {
+    text-align: center;
+}
+
+#data  {
+    text-align: center;
+}
+
+#data ul li {
+    list-style-type: none;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #1ABC9C;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #2E4C6D;
+    width: 100%;
+    line-height: 50px;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    background-color: black;
+    line-height: 150px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}  
+

@@ -1,0 +1,93 @@
+/* Responsive */
+
+@media screen and (max-width: 650px) {
+    nav {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        line-height: 40px;
+        top: 0;
+        background: black;
+        font-family: serif;
+        border-bottom: 1px solid #2E4C6D;
+    }
+
+    .wrapper {
+        width: 380px;
+        margin: auto;
+        position: relative;
+    }
+
+    .logo a {
+        font-size: 40px;
+        font-weight: bold;
+        float: left;
+        font-family: courier;
+        color:#6E3CBC;
+    }
+
+    .menu {
+        float: right;
+        font-size: 10px;
+    }
+
+    .main {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+
+    h2 {
+        font-family: 'comic sans ms';
+        font-weight: 800;
+        font-size: 25px;
+        margin-bottom: 5px;
+        color: #2E4C6D;
+        width: 100%;
+    }
+
+    .main--2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-flow: wrap;
+    }
+
+    .description--2 {
+        padding-top: 5%;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'comic sans ms';
+        color : #2E4C6D;
+    } 
+
+    #main--2_section-1 {
+        padding-bottom: 0%;
+    }
+
+    .box--2 {
+        width: 40%;
+    }
+
+    #main--2_section-2 {
+        padding-bottom: 4%;
+    }
+    
+
+    h3 {
+        font-family: 'comic sans ms';
+        font-weight: bold;
+        font-size: 15px;
+        color: #2E4C6D;
+        width: 100%;
+    }
+}
+
+
+
